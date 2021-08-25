@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background-image: url('./images/611e7e8209bc6.jpg');
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  background-color: rgba(247, 247, 247, 65%);
+  font-weight: bold;
+  font-size: 50px;
+  font-family: sans;
+  -webkit-text-stroke: 1.2px black;
+  text-shadow: 2px 2px grey;
+}
+
+ul {
+  list-style: none;
+}
+
+.countryInput {
+  outline: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  font-size: 24px;
+  width: 300px;
+}
+
+.countryInput::placeholder {
+  color: rgba(0, 0, 0, 0.445);
+}
+
+.countryTitle {
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.countryContentSection {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+.countryContent__title {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+.countryContent__text {
+  font-size: 20px;
+  font-style: italic;
+}
+.countryContent__item {
+  font-size: 20px;
+  font-style: italic;
+}
+.countryContent__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.countryContent__image {
+  margin-left: 40px;
+}
+
+.js-countries {
+  color: white;
+  font-family: sans;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px grey;
+}
